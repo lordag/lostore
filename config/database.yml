@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: store_development
+  pool: 5
+  timeout: 5000
+  username: lo
+  password: lorenzo
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: store_test
+  pool: 5
+  timeout: 5000
+  username: lo
+  password: lorenzo
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: store_test
+  pool: 5
+  timeout: 5000
+  username: lo
+  password: lorenzo
