@@ -6,6 +6,7 @@ development:
   timeout: 5000
   username: lo
   password: lorenzo
+  host: localhost
 
 test:
   adapter: postgresql
@@ -15,6 +16,7 @@ test:
   timeout: 5000
   username: lo
   password: lorenzo
+  host: localhost
 
 production:
   adapter: postgresql
@@ -24,3 +26,4 @@ production:
   timeout: 5000
   username: lo
   password: lorenzo
+  host: localhost
